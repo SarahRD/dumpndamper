@@ -4088,8 +4088,16 @@ h6 {
 
 /*# sourceMappingURL=style.css.map */
 
+body {
+  font-size: 18px;
+}
+
 #mainNav, .main_btn, .download_app_area, .btn {
    background-image: linear-gradient(to right, #44c8f8, #00d4f4, #00dde0, #00e4be, #20e891);
+}
+
+.logo {
+  height: 65px;
 }
 
 .newsletter {
@@ -4125,14 +4133,86 @@ h6 {
   background-image: url(../img/banner/header.jpg) !important;
 }
 
+.banner_inner .container {
+  margin-top: 100px;
+}
+
+.banner_btn {
+  margin-top: 35px;
+  border: solid 1px white;
+  font-size: 1rem;
+  color: #777;
+}
+
+.banner_btn:hover {
+  background: transparent;
+  border: solid 1px white;
+  color: #fff;
+}
+
+.quote_name {
+  text-align: right;
+  font-style: italic;
+}
+
 .iamicon {
   height: 60px;
+}
+
+.interior_area {
+  background: transparent;
 }
 
 .main_btn {
   font-size: 1rem;
 }
 
-.fa:hover {
-  background: linear-gradient(to right, #44c8f8, #00d4f4, #00dde0, #00e4be, #20e891) !important;
+.step_list {
+  list-style-type: none;
+}
+
+.ctn_step {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.rowd {
+  text-align: right;
+}
+
+.rowg {
+  text-align: left;
+}
+
+.app_btn_area .app_btn:hover .media .d-flex i, .app_btn_area .app_btn:hover .media .media-body h4 {
+  -webkit-text-fill-color: #20e891;
+}
+
+.app_btn_area {
+  margin-top: 30px;
+}
+
+.social {
+  color: white;
+  font-size: 25px;
+  margin: 30px 15px 0 15px;
+}
+
+.tp_widgets .list li {
+  margin-bottom: 0;
+}
+
+.logo_foot {
+  margin-left: 50px;
+  height: 150px;
+}
+
+.footer-bottom .footer-text i, .footer-bottom .footer-text a {
+  color: #20e891;
+}
+
+.footer-area {
+  padding: 120px 0 80px 0;
 }
