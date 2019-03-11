@@ -4167,6 +4167,14 @@ body {
   font-size: 1rem;
 }
 
+div.interior_inner div.col-lg-6 {
+  text-align: center;
+}
+
+div.interior_inner div.col-lg-6 img.img-fluid {
+  height: 600px;
+}
+
 .step_list {
   list-style-type: none;
 }
@@ -4184,6 +4192,10 @@ body {
 
 .rowg {
   text-align: left;
+}
+
+.video_area {
+  margin-top: 90px;
 }
 
 .app_btn_area .app_btn:hover .media .d-flex i, .app_btn_area .app_btn:hover .media .media-body h4 {
