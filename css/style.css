@@ -4088,8 +4088,31 @@ h6 {
 
 /*# sourceMappingURL=style.css.map */
 
-.iamicon {
-  height: 60px;
+#mainNav, .main_btn, .download_app_area, .btn {
+   background-image: linear-gradient(to right, #44c8f8, #00d4f4, #00dde0, #00e4be, #20e891);
+}
+
+.newsletter {
+  border-radius: 50px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 60px;
+}
+
+.sub-btn {
+    border-radius: 50px;
+    border: solid 1px #fff;
+    margin: 0 10px 0 10px;
+    color: #fff;
+    background: transparent;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.sub-btn:hover {
+  color: #20e891;
+  background: #fff;
+  border: solid 1px transparent;
 }
 
 .dd{
@@ -4100,4 +4123,16 @@ h6 {
 
 .home_banner_area {
   background-image: url(../img/banner/header.jpg) !important;
+}
+
+.iamicon {
+  height: 60px;
+}
+
+.main_btn {
+  font-size: 1rem;
+}
+
+.fa:hover {
+  background: linear-gradient(to right, #44c8f8, #00d4f4, #00dde0, #00e4be, #20e891) !important;
 }
